@@ -203,7 +203,7 @@ export default function Home() {
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-white/25 hover:scale-105"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-white/25"
                 >
                   <Image
                     src={meme.imageUrl}
