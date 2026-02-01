@@ -188,7 +188,7 @@ export default function Home() {
                   <CardTitle className="font-headline text-2xl mb-4 text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">Set up your wallet</CardTitle>
                   <p className="text-white/70 mb-6">Download Phantom or Solflare. Follow the dev's X and join the community for updates.</p>
                 </div>
-                <Button asChild size="lg" className="bg-white/90 hover:bg-white text-black transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-white/40 rounded-full w-full mt-auto font-bold">
+                <Button asChild size="lg" className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg w-full mt-auto">
                   <a href={pumpFunLink} target="_blank" rel="noopener noreferrer">Buy on Pump.fun</a>
                 </Button>
               </Card>
@@ -208,7 +208,7 @@ export default function Home() {
                   <CardTitle className="font-headline text-2xl mb-4 text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">Swap for $FRANKIE</CardTitle>
                   <p className="text-white/70 mb-6">Head to Pump.fun, paste the CA, and join the pack. Welcome to the pack!</p>
                 </div>
-                <Button asChild size="lg" className="bg-white/90 hover:bg-white text-black transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-white/40 rounded-full w-full mt-auto font-bold">
+                <Button asChild size="lg" className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg w-full mt-auto">
                   <a href={pumpFunLink} target="_blank" rel="noopener noreferrer">Join the pack</a>
                 </Button>
               </Card>
@@ -225,7 +225,7 @@ export default function Home() {
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-transform duration-500 hover:-translate-y-2"
                 >
                   <Image
                     src={meme.imageUrl}
@@ -260,7 +260,7 @@ export default function Home() {
                <Button
                 asChild
                 size="lg"
-                className="bg-white/90 hover:bg-white text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-white/40 rounded-full"
+                className="bg-black/30 backdrop-blur-sm border border-amber-500 text-white font-bold transform transition-transform duration-300 hover:scale-105 hover:bg-black/50 rounded-lg"
               >
                 <a
                   href={socialLinks.telegram}
@@ -273,7 +273,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-white/90 hover:bg-white text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-white/40 rounded-full"
+                className="bg-black/30 backdrop-blur-sm border border-amber-500 text-white font-bold transform transition-transform duration-300 hover:scale-105 hover:bg-black/50 rounded-lg"
               >
                 <a
                   href={socialLinks.twitter}
@@ -286,7 +286,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-white/90 hover:bg-white text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-white/40 rounded-full"
+                className="bg-black/30 backdrop-blur-sm border border-amber-500 text-white font-bold transform transition-transform duration-300 hover:scale-105 hover:bg-black/50 rounded-lg"
               >
                 <a
                   href={socialLinks.dexscreener}
