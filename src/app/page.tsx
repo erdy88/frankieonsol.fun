@@ -16,7 +16,7 @@ const socialLinks = {
 export default function Home() {
   return (
     <div className="flex flex-col min-h-dvh">
-      <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+      <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 shadow-md">
         <div className="container flex h-14 items-center justify-between">
           <a href="#" className="flex items-center gap-2">
             <Image src="https://i.ibb.co/mrTf3GwP/logo.jpg" alt="Frankie Logo" width={40} height={40} className="rounded-full" />
@@ -61,7 +61,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40"
               >
                 <a
                   href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=F8dgv9rSGQJQFUjNktHeGKsJjvfmn7HHutZLoApqpump"
@@ -71,7 +71,7 @@ export default function Home() {
                   Buy $FRANKIE
                 </a>
               </Button>
-              <Button asChild size="lg" variant="outline">
+              <Button asChild size="lg" variant="outline" className="transform transition-transform duration-300 hover:scale-105">
                 <a href="#about">Learn More</a>
               </Button>
             </div>
@@ -115,7 +115,7 @@ export default function Home() {
               Tokenomics
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <Card className="bg-transparent">
+              <Card className="bg-secondary/30 rounded-2xl shadow-xl border border-border/50">
                 <CardHeader>
                   <CardTitle className="font-headline text-2xl">
                     Total Supply
@@ -128,7 +128,7 @@ export default function Home() {
                   <p className="text-muted-foreground">$FRANKIE</p>
                 </CardContent>
               </Card>
-              <Card className="bg-transparent">
+              <Card className="bg-secondary/30 rounded-2xl shadow-xl border border-border/50">
                 <CardHeader>
                   <CardTitle className="font-headline text-2xl">
                     Contract Address
@@ -183,7 +183,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40"
               >
                 <a
                   href={socialLinks.telegram}
@@ -196,7 +196,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40"
               >
                 <a
                   href={socialLinks.twitter}
