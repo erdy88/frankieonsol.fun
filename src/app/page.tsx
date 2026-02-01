@@ -249,9 +249,12 @@ export default function Home() {
             <h2 className="font-headline text-4xl md:text-5xl mb-8 text-white drop-shadow-[0_3px_6px_rgba(255,255,255,0.2)]">
               Join The Pack!
             </h2>
-            <p className="text-lg text-white/70 mb-12">
+            <p className="text-lg text-white/70 mb-6">
               Follow us on our socials to stay updated with the latest barks and
               woofs about $FRANKIE.
+            </p>
+            <p className="text-sm text-white/70 mb-8">
+              Always double-check official links to stay safe from scams.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
                <Button
