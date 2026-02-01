@@ -91,7 +91,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/60" />
           </div>
           <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="lg:order-2 relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 lg:max-w-none group">
+            <div className="relative group lg:order-2 aspect-square max-w-xs sm:max-w-sm mx-auto lg:max-w-none lg:mx-0">
               <div className="absolute -inset-8 bg-white/20 rounded-full blur-3xl opacity-50 transition-all duration-1000 group-hover:opacity-70 group-hover:blur-4xl group-hover:-inset-4"></div>
               <Image
                 src="https://i.ibb.co/mrTf3GwP/logo.jpg"
@@ -101,11 +101,11 @@ export default function Home() {
                 className="object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
               />
             </div>
-            <div className="lg:order-1 flex flex-col gap-6">
+            <div className="lg:order-1 flex flex-col gap-6 text-center lg:text-left">
               <h1 className="font-headline text-5xl md:text-7xl tracking-tighter font-normal text-white drop-shadow-[0_4px_8px_rgba(255,255,255,0.3)]">
                 Frankie The <span className="text-white">CTO</span>.
               </h1>
-              <p className="max-w-[600px] text-lg text-white/70">
+              <p className="max-w-[600px] text-lg text-white/70 mx-auto lg:mx-0">
                 Frankie, possible Barking Puppy sister’s dog
               </p>
             </div>
@@ -330,7 +330,7 @@ export default function Home() {
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-transform duration-300"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg"
                 >
                   <Image
                     src={meme.imageUrl}
