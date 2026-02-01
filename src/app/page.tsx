@@ -20,7 +20,7 @@ export default function Home() {
         <div className="container flex h-14 items-center justify-between">
           <a href="#" className="flex items-center gap-2">
             <Image src="https://i.ibb.co/mrTf3GwP/logo.jpg" alt="Frankie Logo" width={40} height={40} className="rounded-full" />
-            <span className="font-headline text-2xl font-bold text-foreground">
+            <span className="font-headline text-2xl text-foreground">
               FRANKIE
             </span>
           </a>
@@ -50,7 +50,7 @@ export default function Home() {
       <main className="flex-1">
         <section className="container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32">
           <div className="flex flex-col gap-6">
-            <h1 className="font-headline text-5xl md:text-7xl font-bold tracking-tighter">
+            <h1 className="font-headline text-5xl md:text-7xl tracking-tighter">
               Frankie The <span className="text-primary">CTO</span>n.
             </h1>
             <p className="max-w-[600px] text-lg text-muted-foreground">
@@ -89,7 +89,7 @@ export default function Home() {
 
         <section id="about" className="py-20 md:py-32 bg-secondary/50">
           <div className="container max-w-4xl mx-auto text-center">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold mb-8">
+            <h2 className="font-headline text-4xl md:text-5xl mb-8">
               About $FRANKIE
             </h2>
             <div className="text-left space-y-4 bg-background/70 p-8 rounded-2xl shadow-lg ring-1 ring-border">
@@ -111,7 +111,7 @@ export default function Home() {
 
         <section id="tokenomics" className="py-20 md:py-32">
           <div className="container text-center">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold mb-12">
+            <h2 className="font-headline text-4xl md:text-5xl mb-12">
               Tokenomics
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -147,7 +147,7 @@ export default function Home() {
 
         <section id="memes" className="py-20 md:py-32 bg-secondary/50">
           <div className="container text-center">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold mb-12">
+            <h2 className="font-headline text-4xl md:text-5xl mb-12">
               Meme Gallery
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -172,7 +172,7 @@ export default function Home() {
 
         <section id="socials" className="py-20 md:py-32">
           <div className="container text-center max-w-2xl mx-auto">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold mb-8">
+            <h2 className="font-headline text-4xl md:text-5xl mb-8">
               Join The Pack!
             </h2>
             <p className="text-lg text-muted-foreground mb-12">
