@@ -106,16 +106,16 @@ export default function Home() {
             </h2>
             <div className="text-left space-y-4 bg-white/5 backdrop-blur-xl p-8 rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:shadow-primary/20 hover:ring-white/20 hover:-translate-y-2 hover:shadow-lg">
               <p className="text-lg text-foreground">
-                On Instagram, Kevin Gill follows Rachel Gill Byron. Same
-                surname, so she might be his sister (speculation). Her public
-                posts reference a dog named “Frankie”.
+                On Instagram, Kevin Gill follows Rachel Gill Byron. They share the same surname, so she might be his sister. This is speculation, not a confirmed relationship. Her public posts reference a dog named “Frankie.”
               </p>
               <p className="text-lg text-foreground">
-                Kevin Gill (the real CTO, Chief Trading Officer) already has a
-                dog-themed coin valued around ~$7m.
+                Kevin Gill, known for Barking Puppy, already has a dog-themed coin that reached around a ~$7m valuation. That alone shows the market has appetite for this narrative.
               </p>
-              <p className="text-xl font-bold text-primary drop-shadow-md">
-                $FRANKIE has legs to follow!
+              <p className="text-lg text-foreground">
+                $FRANKIE is a clean continuation of that meta. A public social breadcrumb, a familiar dog theme, now tokenized on-chain.
+              </p>
+              <p className="text-lg text-foreground">
+                No claim of endorsement or affiliation. This is simply a visible social trail paired with an on-chain experiment. DYOR.
               </p>
             </div>
           </div>
@@ -231,6 +231,9 @@ export default function Home() {
           <p>
             &copy; {new Date().getFullYear()} Frankie the CTOn. All rights
             reserved.{' '}
+          </p>
+          <p className="text-xs text-muted-foreground/50 mt-4">
+            Disclaimer: This content is for informational and entertainment purposes only and reflects personal speculation based on publicly available information. NFA. Investing in memecoins is highly risky and volatile and may result in the partial or total loss of your investment. Always do your own research and only risk what you can afford to lose.
           </p>
         </div>
       </footer>
