@@ -222,40 +222,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="videos" className="py-20 md:py-32">
-          <div className="container text-center">
-            <h2 className="font-headline text-4xl md:text-5xl mb-12 text-white drop-shadow-[0_3px_6px_rgba(255,255,255,0.2)]">
-              Frankie on Instagram
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[
-                'DDQjtFttCZi',
-                'DA4jutZtKt-',
-                'DArwRMttWEE',
-                'DAUWXTHNKGO',
-                'C_j6BxNtRRv',
-                'C_j3ywctjPP',
-              ].map((reelId) => (
-                <div
-                  key={reelId}
-                  className="bg-black/50 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-white/20 hover:ring-white/20 border-none hover:shadow-lg hover:ring-opacity-30 overflow-hidden"
-                >
-                  <iframe
-                    src={`https://www.instagram.com/p/${reelId}/embed`}
-                    width="100%"
-                    height="480"
-                    frameBorder="0"
-                    scrolling="no"
-                    allowtransparency="true"
-                    allowFullScreen
-                    className="w-full h-[480px]"
-                  ></iframe>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         <section id="socials" className="py-20 md:py-32">
           <div className="container text-center max-w-2xl mx-auto">
             <h2 className="font-headline text-4xl md:text-5xl mb-8 text-white drop-shadow-[0_3px_6px_rgba(255,255,255,0.2)]">
