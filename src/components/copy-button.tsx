@@ -33,7 +33,7 @@ export function CopyButton({ textToCopy }: CopyButtonProps) {
   };
 
   return (
-    <Button onClick={handleCopy} variant="outline" className="w-full transform transition-transform duration-300 hover:scale-105">
+    <Button onClick={handleCopy} variant="outline" className="w-full transform transition-transform duration-300 hover:scale-105 rounded-full bg-transparent hover:bg-white/10 border-white/20">
       {isCopied ? <Check className="mr-2 h-4 w-4" /> : <Copy className="mr-2 h-4 w-4" />}
       {isCopied ? 'Copied!' : 'Copy Address'}
     </Button>

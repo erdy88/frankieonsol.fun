@@ -15,12 +15,12 @@ const socialLinks = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-dvh">
-      <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/70 backdrop-blur-lg shadow-lg supports-[backdrop-filter]:bg-background/50">
+    <div className="flex flex-col min-h-dvh bg-background">
+      <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/50 backdrop-blur-2xl shadow-2xl supports-[backdrop-filter]:bg-background/30">
         <div className="container flex h-14 items-center justify-between">
           <a href="#" className="flex items-center gap-2">
             <Image src="https://i.ibb.co/mrTf3GwP/logo.jpg" alt="Frankie Logo" width={40} height={40} className="rounded-full" />
-            <span className="font-headline text-2xl text-foreground">
+            <span className="font-headline text-2xl text-foreground drop-shadow-lg">
               FRANKIE
             </span>
           </a>
@@ -30,7 +30,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="ghost" size="icon" aria-label="Telegram">
+              <Button variant="ghost" size="icon" aria-label="Telegram" className="hover:bg-white/10 rounded-full">
                 <Send className="h-5 w-5 text-accent" />
               </Button>
             </a>
@@ -39,7 +39,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="ghost" size="icon" aria-label="Twitter">
+              <Button variant="ghost" size="icon" aria-label="Twitter" className="hover:bg-white/10 rounded-full">
                 <Twitter className="h-5 w-5 text-accent" />
               </Button>
             </a>
@@ -50,7 +50,7 @@ export default function Home() {
       <main className="flex-1">
         <section className="container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32">
           <div className="flex flex-col gap-6">
-            <h1 className="font-headline text-5xl md:text-7xl tracking-tighter font-normal">
+            <h1 className="font-headline text-5xl md:text-7xl tracking-tighter font-normal drop-shadow-2xl">
               Frankie The <span className="text-primary">CTO</span>n.
             </h1>
             <p className="max-w-[600px] text-lg text-muted-foreground">
@@ -61,7 +61,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40 rounded-full"
               >
                 <a
                   href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=F8dgv9rSGQJQFUjNktHeGKsJjvfmn7HHutZLoApqpump"
@@ -71,28 +71,29 @@ export default function Home() {
                   Buy $FRANKIE
                 </a>
               </Button>
-              <Button asChild size="lg" variant="outline" className="transform transition-transform duration-300 hover:scale-105">
+              <Button asChild size="lg" variant="outline" className="transform transition-transform duration-300 hover:scale-105 rounded-full bg-transparent hover:bg-white/10 border-white/20">
                 <a href="#about">Learn More</a>
               </Button>
             </div>
           </div>
           <div className="relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 lg:max-w-none">
+            <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl"></div>
             <Image
                 src="https://i.ibb.co/mrTf3GwP/logo.jpg"
                 alt="Frankie the CTOn"
                 fill
                 priority
-                className="object-cover rounded-2xl shadow-2xl transform transition-transform duration-500 hover:scale-105"
+                className="object-cover rounded-3xl shadow-2xl transform transition-transform duration-500 hover:scale-105 hover:rotate-3"
               />
           </div>
         </section>
 
         <section id="about" className="py-20 md:py-32">
           <div className="container max-w-4xl mx-auto text-center">
-            <h2 className="font-headline text-4xl md:text-5xl mb-8">
+            <h2 className="font-headline text-4xl md:text-5xl mb-8 drop-shadow-xl">
               About $FRANKIE
             </h2>
-            <div className="text-left space-y-4 bg-white/5 backdrop-blur-xl p-8 rounded-2xl shadow-lg ring-1 ring-white/10">
+            <div className="text-left space-y-4 bg-white/10 backdrop-blur-2xl p-8 rounded-3xl shadow-2xl ring-1 ring-white/20">
               <p className="text-lg text-foreground">
                 On Instagram, Kevin Gill follows Rachel Gill Byron. Same
                 surname, so she might be his sister (speculation). Her public
@@ -102,7 +103,7 @@ export default function Home() {
                 Kevin Gill (the real CTO, Chief Trading Officer) already has a
                 dog-themed coin valued around ~$7m.
               </p>
-              <p className="text-xl font-bold text-primary">
+              <p className="text-xl font-bold text-primary drop-shadow-md">
                 $FRANKIE has legs to follow!
               </p>
             </div>
@@ -111,31 +112,31 @@ export default function Home() {
 
         <section id="tokenomics" className="py-20 md:py-32">
           <div className="container text-center">
-            <h2 className="font-headline text-4xl md:text-5xl mb-12">
+            <h2 className="font-headline text-4xl md:text-5xl mb-12 drop-shadow-xl">
               Tokenomics
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <Card className="bg-white/5 backdrop-blur-xl rounded-2xl shadow-lg border border-white/10">
+              <Card className="bg-white/10 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/20 transition-transform duration-300 hover:-translate-y-2 border-none">
                 <CardHeader>
-                  <CardTitle className="font-headline text-2xl">
+                  <CardTitle className="font-headline text-2xl drop-shadow-lg">
                     Total Supply
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-4xl font-bold text-primary">
+                  <p className="text-4xl font-bold text-primary drop-shadow-lg">
                     1,000,000,000
                   </p>
                   <p className="text-muted-foreground">$FRANKIE</p>
                 </CardContent>
               </Card>
-              <Card className="bg-white/5 backdrop-blur-xl rounded-2xl shadow-lg border border-white/10">
+              <Card className="bg-white/10 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/20 transition-transform duration-300 hover:-translate-y-2 border-none">
                 <CardHeader>
-                  <CardTitle className="font-headline text-2xl">
+                  <CardTitle className="font-headline text-2xl drop-shadow-lg">
                     Contract Address
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <div className="flex items-center justify-center p-3 bg-muted rounded-md text-sm md:text-base break-all">
+                  <div className="flex items-center justify-center p-3 bg-black/20 rounded-md text-sm md:text-base break-all">
                     <p className="font-code">{contractAddress}</p>
                   </div>
                   <CopyButton textToCopy={contractAddress} />
@@ -145,16 +146,16 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="memes" className="py-20 md:py-32 bg-secondary/50">
+        <section id="memes" className="py-20 md:py-32 bg-black/10">
           <div className="container text-center">
-            <h2 className="font-headline text-4xl md:text-5xl mb-12">
+            <h2 className="font-headline text-4xl md:text-5xl mb-12 drop-shadow-xl">
               Meme Gallery
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="aspect-square relative group overflow-hidden rounded-xl shadow-lg"
+                  className="aspect-square relative group overflow-hidden rounded-2xl shadow-lg"
                 >
                   <Image
                     src={meme.imageUrl}
@@ -164,6 +165,9 @@ export default function Home() {
                     className="object-cover transform transition-transform duration-500 group-hover:scale-110"
                     sizes="(max-width: 768px) 50vw, 25vw"
                   />
+                   <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+                    <p className="text-white text-center text-sm">{meme.description}</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -172,7 +176,7 @@ export default function Home() {
 
         <section id="socials" className="py-20 md:py-32">
           <div className="container text-center max-w-2xl mx-auto">
-            <h2 className="font-headline text-4xl md:text-5xl mb-8">
+            <h2 className="font-headline text-4xl md:text-5xl mb-8 drop-shadow-xl">
               Join The Pack!
             </h2>
             <p className="text-lg text-muted-foreground mb-12">
@@ -183,7 +187,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40 rounded-full"
               >
                 <a
                   href={socialLinks.telegram}
@@ -196,7 +200,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40"
+                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40 rounded-full"
               >
                 <a
                   href={socialLinks.twitter}
@@ -211,7 +215,7 @@ export default function Home() {
         </section>
       </main>
 
-      <footer className="py-6 border-t">
+      <footer className="py-6 border-t border-white/10">
         <div className="container text-center text-muted-foreground">
           <p>
             &copy; {new Date().getFullYear()} Frankie the CTOn. All rights
