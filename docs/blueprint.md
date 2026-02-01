@@ -1,4 +1,4 @@
-# **App Name**: Frankie the CTOn
+# **App Name**: Frankie The CTO
 
 ## Core Features:
 

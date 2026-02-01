@@ -3,7 +3,7 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Frankie the CTOn',
+  title: 'Frankie The CTO',
   description: 'The meme token with legs to follow!',
 };
 

@@ -73,7 +73,7 @@ export default function Home() {
           <div className="container relative grid lg:grid-cols-2 gap-12 items-center">
             <div className="flex flex-col gap-6">
               <h1 className="font-headline text-5xl md:text-7xl tracking-tighter font-normal text-white drop-shadow-[0_4px_8px_rgba(255,255,255,0.3)]">
-                Frankie The <span className="text-white">CTO</span>n.
+                Frankie The <span className="text-white">CTO</span>.
               </h1>
               <p className="max-w-[600px] text-lg text-white/70">
                 Kevin Gill's potential dog. A dog-themed coin with legs to follow!
@@ -84,7 +84,7 @@ export default function Home() {
                <div className="absolute -inset-8 bg-white/20 rounded-full blur-3xl opacity-50 transition-all duration-1000 group-hover:opacity-70 group-hover:blur-4xl group-hover:-inset-4"></div>
               <Image
                   src="https://i.ibb.co/mrTf3GwP/logo.jpg"
-                  alt="Frankie the CTOn"
+                  alt="Frankie The CTO"
                   fill
                   priority
                   className="relative object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
@@ -304,7 +304,7 @@ export default function Home() {
       <footer className="py-6 border-t border-white/10">
         <div className="container text-center text-white/60">
           <p>
-            &copy; {new Date().getFullYear()} Frankie the CTOn. All rights
+            &copy; {new Date().getFullYear()} Frankie the CTO. All rights
             reserved.{' '}
           </p>
           <p className="text-xs text-white/40 mt-4 max-w-3xl mx-auto">
