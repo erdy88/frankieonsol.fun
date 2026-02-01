@@ -66,7 +66,7 @@ export default function Home() {
               src="https://i.ibb.co/mrTf3GwP/logo.jpg"
               alt="Frankie background"
               fill
-              className="object-cover opacity-10 blur-md"
+              className="object-cover opacity-15 blur-md"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/80" />
           </div>
@@ -110,6 +110,28 @@ export default function Home() {
               </p>
               <p className="text-lg text-white/90">
                 No claim of endorsement or affiliation. This is simply a visible social trail paired with an on-chain experiment. DYOR.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="mission" className="py-20 md:py-32">
+          <div className="container max-w-4xl mx-auto text-center">
+            <h2 className="font-headline text-4xl md:text-5xl mb-8 text-white drop-shadow-[0_3px_6px_rgba(255,255,255,0.2)]">
+              Mission
+            </h2>
+            <div className="text-left space-y-4 bg-black/50 backdrop-blur-2xl p-8 rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:shadow-white/20 hover:ring-white/20 hover:-translate-y-2 hover:shadow-lg hover:ring-opacity-30">
+              <p className="text-lg text-white/90">
+                Frankie’s mission is to transform a simple, publicly visible social breadcrumb into a transparent, community-led experiment, one that starts as an open meme and aspires to become official through consent and collaboration.
+              </p>
+              <p className="text-lg text-white/90">
+                We aim to build Frankie in the open: no false endorsements, no assumptions, and no pressure. If the real-world owner ever chooses to acknowledge or participate, the project is designed to evolve into an official, owner-aligned token with full transparency.
+              </p>
+              <p className="text-lg text-white/90">
+                Until then, Frankie exists as a culture-first meme: driven by community creativity, clear disclosures, and respect for the people behind the story.
+              </p>
+              <p className="text-lg text-white/90">
+                The goal is simple: let the narrative earn legitimacy organically, not force it.
               </p>
             </div>
           </div>
@@ -203,7 +225,7 @@ export default function Home() {
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-all duration-500 hover:-translate-y-2 hover:shadow-white/25"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg"
                 >
                   <Image
                     src={meme.imageUrl}
