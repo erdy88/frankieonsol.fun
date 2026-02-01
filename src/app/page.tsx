@@ -54,9 +54,9 @@ export default function Home() {
               src="https://i.ibb.co/mrTf3GwP/logo.jpg"
               alt="Frankie background"
               fill
-              className="object-cover opacity-10 blur-sm"
+              className="object-cover opacity-20 blur-sm"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-background/30 to-background" />
+            <div className="absolute inset-0 bg-gradient-to-b from-background/20 to-background/80" />
           </div>
           <div className="container relative grid lg:grid-cols-2 gap-12 items-center">
             <div className="flex flex-col gap-6">
