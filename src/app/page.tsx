@@ -162,7 +162,7 @@ export default function Home() {
             <h2 className="font-headline text-4xl md:text-5xl mb-12 drop-shadow-xl">
               Meme Gallery
             </h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
@@ -174,7 +174,7 @@ export default function Home() {
                     data-ai-hint={meme.imageHint}
                     fill
                     className="object-cover transform transition-transform duration-500 group-hover:scale-110"
-                    sizes="(max-width: 768px) 50vw, 25vw"
+                    sizes="(max-width: 640px) 50vw, 33vw"
                   />
                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
                     <p className="text-white text-center text-sm">{meme.description}</p>
