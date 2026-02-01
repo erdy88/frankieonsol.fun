@@ -54,9 +54,9 @@ export default function Home() {
               src="https://i.ibb.co/mrTf3GwP/logo.jpg"
               alt="Frankie background"
               fill
-              className="object-cover opacity-20 blur-sm"
+              className="object-cover opacity-10 blur-sm"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-background/20 to-background/80" />
+            <div className="absolute inset-0 bg-gradient-to-b from-background/10 to-background/80" />
           </div>
           <div className="container relative grid lg:grid-cols-2 gap-12 items-center">
             <div className="flex flex-col gap-6">
@@ -67,24 +67,6 @@ export default function Home() {
                 Kevin Gill's potential dog. A dog-themed coin with legs to follow!
                 Ready to bark its way to the moon.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button
-                  asChild
-                  size="lg"
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40 rounded-full"
-                >
-                  <a
-                    href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=F8dgv9rSGQJQFUjNktHeGKsJjvfmn7HHutZLoApqpump"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Buy $FRANKIE
-                  </a>
-                </Button>
-                <Button asChild size="lg" variant="outline" className="transform transition-transform duration-300 hover:scale-105 rounded-full bg-transparent hover:bg-white/10 border-white/20">
-                  <a href="#about">Learn More</a>
-                </Button>
-              </div>
             </div>
             <div className="relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 lg:max-w-none">
               <div className="absolute -inset-4 bg-primary/20 rounded-full blur-3xl opacity-60 transition-all duration-500 group-hover:opacity-80 group-hover:blur-4xl"></div>
