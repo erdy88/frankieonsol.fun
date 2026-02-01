@@ -98,7 +98,7 @@ export default function Home() {
                 alt="Frankie The CTO"
                 fill
                 priority
-                className="relative object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
+                className="object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
               />
             </div>
             <div className="lg:order-1 flex flex-col gap-6">
@@ -330,7 +330,7 @@ export default function Home() {
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-transform duration-300 hover:-translate-y-2"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-transform duration-300"
                 >
                   <Image
                     src={meme.imageUrl}
