@@ -12,8 +12,7 @@ const pumpFunLink = `https://www.pump.fun/${contractAddress}`;
 const socialLinks = {
   telegram: 'http://t.me/FRANKIETHECTO',
   twitter: 'https://twitter.com/i/communities/2017258551631102306',
-  dexscreener:
-    `https://dexscreener.com/solana/${contractAddress}`,
+  dexscreener: `https://dexscreener.com/solana/${contractAddress}`,
 };
 
 export default function Home() {
@@ -22,7 +21,13 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-black/50 backdrop-blur-xl shadow-2xl supports-[backdrop-filter]:bg-black/30">
         <div className="container flex h-14 items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <Image src="https://i.ibb.co/mrTf3GwP/logo.jpg" alt="Frankie Logo" width={40} height={40} className="rounded-full" />
+            <Image
+              src="https://i.ibb.co/mrTf3GwP/logo.jpg"
+              alt="Frankie Logo"
+              width={40}
+              height={40}
+              className="rounded-full"
+            />
             <span className="font-headline text-2xl text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.3)]">
               FRANKIE
             </span>
@@ -33,7 +38,12 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="ghost" size="icon" aria-label="Telegram" className="rounded-full text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 transform hover:scale-110">
+              <Button
+                variant="ghost"
+                size="icon"
+                aria-label="Telegram"
+                className="rounded-full text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 transform hover:scale-110"
+              >
                 <Send className="h-5 w-5" />
               </Button>
             </a>
@@ -42,7 +52,12 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="ghost" size="icon" aria-label="Twitter" className="rounded-full text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 transform hover:scale-110">
+              <Button
+                variant="ghost"
+                size="icon"
+                aria-label="Twitter"
+                className="rounded-full text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 transform hover:scale-110"
+              >
                 <Twitter className="h-5 w-5" />
               </Button>
             </a>
@@ -51,7 +66,12 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Button variant="ghost" size="icon" aria-label="DexScreener" className="rounded-full text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 transform hover:scale-110">
+              <Button
+                variant="ghost"
+                size="icon"
+                aria-label="DexScreener"
+                className="rounded-full text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 transform hover:scale-110"
+              >
                 <LineChart className="h-5 w-5" />
               </Button>
             </a>
@@ -76,19 +96,18 @@ export default function Home() {
                 Frankie The <span className="text-white">CTO</span>.
               </h1>
               <p className="max-w-[600px] text-lg text-white/70">
-                Kevin Gill's potential dog. A dog-themed coin with legs to follow!
-                Ready to bark its way to the moon.
+                Frankie, possible Barking Puppy sister’s dog
               </p>
             </div>
             <div className="relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 lg:max-w-none group">
-               <div className="absolute -inset-8 bg-white/20 rounded-full blur-3xl opacity-50 transition-all duration-1000 group-hover:opacity-70 group-hover:blur-4xl group-hover:-inset-4"></div>
+              <div className="absolute -inset-8 bg-white/20 rounded-full blur-3xl opacity-50 transition-all duration-1000 group-hover:opacity-70 group-hover:blur-4xl group-hover:-inset-4"></div>
               <Image
-                  src="https://i.ibb.co/mrTf3GwP/logo.jpg"
-                  alt="Frankie The CTO"
-                  fill
-                  priority
-                  className="relative object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
-                />
+                src="https://i.ibb.co/mrTf3GwP/logo.jpg"
+                alt="Frankie The CTO"
+                fill
+                priority
+                className="relative object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
+              />
             </div>
           </div>
         </section>
@@ -100,16 +119,23 @@ export default function Home() {
             </h2>
             <div className="text-left space-y-4 bg-black/50 backdrop-blur-2xl p-8 rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:shadow-white/20 hover:ring-white/20 hover:-translate-y-2 hover:shadow-lg hover:ring-opacity-30">
               <p className="text-lg text-white/90">
-                On Instagram, Kevin Gill follows Rachel Gill Byron. They share the same surname, so she might be his sister. This is speculation, not a confirmed relationship. Her public posts reference a dog named “Frankie.”
+                On Instagram, Kevin Gill follows Rachel Gill Byron. They share
+                the same surname, so she might be his sister. This is
+                speculation, not a confirmed relationship. Her public posts
+                reference a dog named “Frankie.”
               </p>
               <p className="text-lg text-white/90">
-                Kevin Gill, known for Barking Puppy, already has a dog-themed coin that reached around a ~$7m valuation. That alone shows the market has appetite for this narrative.
+                Kevin Gill, known for Barking Puppy, already has a dog-themed
+                coin that reached around a ~$7m valuation. That alone shows the
+                market has appetite for this narrative.
               </p>
               <p className="text-lg text-white/90">
-                $FRANKIE is a clean continuation of that meta. A public social breadcrumb, a familiar dog theme, now tokenized on-chain.
+                $FRANKIE is a clean continuation of that meta. A public social
+                breadcrumb, a familiar dog theme, now tokenized on-chain.
               </p>
               <p className="text-lg text-white/90">
-                No claim of endorsement or affiliation. This is simply a visible social trail paired with an on-chain experiment. DYOR.
+                No claim of endorsement or affiliation. This is simply a
+                visible social trail paired with an on-chain experiment. DYOR.
               </p>
             </div>
           </div>
@@ -122,16 +148,26 @@ export default function Home() {
             </h2>
             <div className="text-left space-y-4 bg-black/50 backdrop-blur-2xl p-8 rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:shadow-white/20 hover:ring-white/20 hover:-translate-y-2 hover:shadow-lg hover:ring-opacity-30">
               <p className="text-lg text-white/90">
-                Frankie’s mission is to transform a simple, publicly visible social breadcrumb into a transparent, community-led experiment, one that starts as an open meme and aspires to become official through consent and collaboration.
+                Frankie’s mission is to transform a simple, publicly visible
+                social breadcrumb into a transparent, community-led experiment,
+                one that starts as an open meme and aspires to become official
+                through consent and collaboration.
               </p>
               <p className="text-lg text-white/90">
-                We aim to build Frankie in the open: no false endorsements, no assumptions, and no pressure. If the real-world owner ever chooses to acknowledge or participate, the project is designed to evolve into an official, owner-aligned token with full transparency.
+                We aim to build Frankie in the open: no false endorsements, no
+                assumptions, and no pressure. If the real-world owner ever
+                chooses to acknowledge or participate, the project is designed
+                to evolve into an official, owner-aligned token with full
+                transparency.
               </p>
               <p className="text-lg text-white/90">
-                Until then, Frankie exists as a culture-first meme: driven by community creativity, clear disclosures, and respect for the people behind the story.
+                Until then, Frankie exists as a culture-first meme: driven by
+                community creativity, clear disclosures, and respect for the
+                people behind the story.
               </p>
               <p className="text-lg text-white/90">
-                The goal is simple: let the narrative earn legitimacy organically, not force it.
+                The goal is simple: let the narrative earn legitimacy
+                organically, not force it.
               </p>
             </div>
           </div>
@@ -142,7 +178,7 @@ export default function Home() {
             <h2 className="font-headline text-4xl md:text-5xl mb-12 text-white drop-shadow-[0_3px_6px_rgba(255,255,255,0.2)]">
               Tokenomics
             </h2>
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <Card className="bg-black/50 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-white/20 hover:ring-white/20 border-none hover:shadow-lg hover:ring-opacity-30">
                 <CardHeader>
                   <CardTitle className="font-headline text-2xl text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">
@@ -164,9 +200,36 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="flex items-center justify-center p-3 bg-black/20 rounded-md text-sm md:text-base break-all">
-                    <p className="font-code text-white/90">{contractAddress}</p>
+                    <p className="font-code text-white/90">
+                      {contractAddress}
+                    </p>
                   </div>
                   <CopyButton textToCopy={contractAddress} />
+                </CardContent>
+              </Card>
+              <Card className="bg-black/50 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-white/20 hover:ring-white/20 border-none hover:shadow-lg hover:ring-opacity-30">
+                <CardHeader>
+                  <CardTitle className="font-headline text-2xl text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">
+                    Locked Tokens
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <p className="text-white/90 text-lg">
+                    3.3% of $FRANKIE has been locked for 30 days.
+                  </p>
+                  <Button
+                    asChild
+                    size="lg"
+                    className="w-full bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg"
+                  >
+                    <a
+                      href="https://app.streamflow.finance/contract/solana/mainnet/GEobq682jPdRE2UzqGpiQdPVkndsUVtrvQLBWkKrnFQS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Lock
+                    </a>
+                  </Button>
                 </CardContent>
               </Card>
             </div>
@@ -179,37 +242,79 @@ export default function Home() {
               Three Steps to Join The Pack
             </h2>
             <p className="text-white/70 mb-12 max-w-2xl mx-auto">
-              Always double-check official links and contract addresses. Move only what you can afford to risk.
+              Always double-check official links and contract addresses. Move
+              only what you can afford to risk.
             </p>
             <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
               <Card className="bg-black/50 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-white/20 hover:ring-white/20 border-none hover:shadow-lg hover:ring-opacity-30 p-6 flex flex-col">
                 <div className="flex-grow">
-                  <p className="text-sm font-bold text-white/90 mb-2">STEP 1</p>
-                  <CardTitle className="font-headline text-2xl mb-4 text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">Set up your wallet</CardTitle>
-                  <p className="text-white/70 mb-6">Download Phantom or Solflare. Follow the dev's X and join the community for updates.</p>
+                  <p className="text-sm font-bold text-white/90 mb-2">
+                    STEP 1
+                  </p>
+                  <CardTitle className="font-headline text-2xl mb-4 text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">
+                    Set up your wallet
+                  </CardTitle>
+                  <p className="text-white/70 mb-6">
+                    Download Phantom or Solflare. Follow the dev's X and join
+                    the community for updates.
+                  </p>
                 </div>
-                <Button asChild size="lg" className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg w-full mt-auto">
-                  <a href={pumpFunLink} target="_blank" rel="noopener noreferrer">Buy on Pump.fun</a>
+                <Button
+                  asChild
+                  size="lg"
+                  className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg w-full mt-auto"
+                >
+                  <a
+                    href={pumpFunLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Buy on Pump.fun
+                  </a>
                 </Button>
-              </Card>
-              
-              <Card className="bg-black/50 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-white/20 hover:ring-white/20 border-none hover:shadow-lg hover:ring-opacity-30 p-6 flex flex-col">
-                <div className="flex-grow">
-                  <p className="text-sm font-bold text-white/90 mb-2">STEP 2</p>
-                  <CardTitle className="font-headline text-2xl mb-4 text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">Get SOL ready</CardTitle>
-                  <p className="text-white/70 mb-6">Fund your wallet with SOL. Always verify the contract address before any swap.</p>
-                </div>
-                 <CopyButton textToCopy={contractAddress} />
               </Card>
 
               <Card className="bg-black/50 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-white/20 hover:ring-white/20 border-none hover:shadow-lg hover:ring-opacity-30 p-6 flex flex-col">
                 <div className="flex-grow">
-                  <p className="text-sm font-bold text-white/90 mb-2">STEP 3</p>
-                  <CardTitle className="font-headline text-2xl mb-4 text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">Swap for $FRANKIE</CardTitle>
-                  <p className="text-white/70 mb-6">Head to Pump.fun, paste the CA, and join the pack. Welcome to the pack!</p>
+                  <p className="text-sm font-bold text-white/90 mb-2">
+                    STEP 2
+                  </p>
+                  <CardTitle className="font-headline text-2xl mb-4 text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">
+                    Get SOL ready
+                  </CardTitle>
+                  <p className="text-white/70 mb-6">
+                    Fund your wallet with SOL. Always verify the contract
+                    address before any swap.
+                  </p>
                 </div>
-                <Button asChild size="lg" className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg w-full mt-auto">
-                  <a href={pumpFunLink} target="_blank" rel="noopener noreferrer">Join the pack</a>
+                <CopyButton textToCopy={contractAddress} />
+              </Card>
+
+              <Card className="bg-black/50 backdrop-blur-2xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-white/20 hover:ring-white/20 border-none hover:shadow-lg hover:ring-opacity-30 p-6 flex flex-col">
+                <div className="flex-grow">
+                  <p className="text-sm font-bold text-white/90 mb-2">
+                    STEP 3
+                  </p>
+                  <CardTitle className="font-headline text-2xl mb-4 text-white drop-shadow-[0_2px_4px_rgba(255,255,255,0.2)]">
+                    Swap for $FRANKIE
+                  </CardTitle>
+                  <p className="text-white/70 mb-6">
+                    Head to Pump.fun, paste the CA, and join the pack. Welcome
+                    to the pack!
+                  </p>
+                </div>
+                <Button
+                  asChild
+                  size="lg"
+                  className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg w-full mt-auto"
+                >
+                  <a
+                    href={pumpFunLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Join the pack
+                  </a>
                 </Button>
               </Card>
             </div>
@@ -235,8 +340,10 @@ export default function Home() {
                     height={meme.height || 500}
                     className="w-full h-auto transform transition-transform duration-500 group-hover:scale-110"
                   />
-                   <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
-                    <p className="text-white text-center text-sm">{meme.description}</p>
+                  <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+                    <p className="text-white text-center text-sm">
+                      {meme.description}
+                    </p>
                   </div>
                 </div>
               ))}
@@ -257,7 +364,7 @@ export default function Home() {
               Always double-check official links to stay safe from scams.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-               <Button
+              <Button
                 asChild
                 size="lg"
                 className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg"
@@ -308,7 +415,12 @@ export default function Home() {
             reserved.{' '}
           </p>
           <p className="text-xs text-white/40 mt-4 max-w-3xl mx-auto">
-            Disclaimer: This content is for informational and entertainment purposes only and reflects personal speculation based on publicly available information. NFA. Investing in memecoins is highly risky and volatile and may result in the partial or total loss of your investment. Always do your own research and only risk what you can afford to lose.
+            Disclaimer: This content is for informational and entertainment
+            purposes only and reflects personal speculation based on publicly
+            available information. NFA. Investing in memecoins is highly risky
+            and volatile and may result in the partial or total loss of your
+            investment. Always do your own research and only risk what you can
+            afford to lose.
           </p>
         </div>
       </footer>
