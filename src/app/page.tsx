@@ -66,7 +66,7 @@ export default function Home() {
               src="https://i.ibb.co/mrTf3GwP/logo.jpg"
               alt="Frankie background"
               fill
-              className="object-cover opacity-20 blur-md"
+              className="object-cover opacity-10 blur-md"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/80" />
           </div>
@@ -246,7 +246,7 @@ export default function Home() {
                     height="480"
                     frameBorder="0"
                     scrolling="no"
-                    allowTransparency
+                    allowtransparency="true"
                     allowFullScreen
                     className="w-full h-[480px]"
                   ></iframe>
