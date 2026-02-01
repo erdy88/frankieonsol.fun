@@ -1,3 +1,34 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-dog",
+      "description": "A cute puppy looking at the camera.",
+      "imageUrl": "https://images.unsplash.com/photo-1587402092301-725e37c70fd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjdXRlJTIwcHVwcHl8ZW58MHx8fHwxNzY5ODY5Mjg0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cute puppy"
+    },
+    {
+      "id": "meme1",
+      "description": "Dog wearing glasses working on a laptop.",
+      "imageUrl": "https://images.unsplash.com/photo-1662279058026-b16f21310354?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkb2clMjBjb21wdXRlcnxlbnwwfHx8fDE3Njk5MzM5NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog computer"
+    },
+    {
+      "id": "meme2",
+      "description": "A dog in a suit looking professional.",
+      "imageUrl": "https://images.unsplash.com/photo-1578252930134-2c562382cbd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkb2clMjBzdWl0fGVufDB8fHx8MTc2OTkzMzk3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog suit"
+    },
+    {
+      "id": "meme3",
+      "description": "A confused looking dog.",
+      "imageUrl": "https://images.unsplash.com/photo-1554224311-beee415c201f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmdW5ueSUyMGRvZ3xlbnwwfHx8fDE3Njk5MzM5NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "funny dog"
+    },
+    {
+      "id": "meme4",
+      "description": "A dog with a funny hat.",
+      "imageUrl": "https://images.unsplash.com/photo-1598500346541-da74e0ac631c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb2clMjBoYXR8ZW58MHx8fHwxNzY5ODM5MTYzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dog hat"
+    }
+  ]
 }
