@@ -10,19 +10,25 @@
       "id": "meme1",
       "description": "Frankie meme.",
       "imageUrl": "https://i.ibb.co/VWnQqcF7/1.jpg",
-      "imageHint": "dog meme"
+      "imageHint": "dog meme",
+      "width": 1080,
+      "height": 1080
     },
     {
       "id": "meme2",
       "description": "Frankie meme.",
       "imageUrl": "https://i.ibb.co/chrykF7g/2.jpg",
-      "imageHint": "dog meme"
+      "imageHint": "dog meme",
+      "width": 1080,
+      "height": 1350
     },
     {
       "id": "meme3",
       "description": "Frankie meme.",
       "imageUrl": "https://i.ibb.co/NdmXWzTp/3.jpg",
-      "imageHint": "dog meme"
+      "imageHint": "dog meme",
+      "width": 1080,
+      "height": 1080
     }
   ]
 }

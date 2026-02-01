@@ -16,7 +16,7 @@ const socialLinks = {
 export default function Home() {
   return (
     <div className="flex flex-col min-h-dvh bg-background">
-      <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/50 backdrop-blur-2xl shadow-2xl supports-[backdrop-filter]:bg-background/30">
+      <header className="sticky top-0 z-50 w-full border-b border-white/10 bg-background/50 backdrop-blur-xl shadow-2xl supports-[backdrop-filter]:bg-background/30">
         <div className="container flex h-14 items-center justify-between">
           <a href="#" className="flex items-center gap-2">
             <Image src="https://i.ibb.co/mrTf3GwP/logo.jpg" alt="Frankie Logo" width={40} height={40} className="rounded-full" />
@@ -162,19 +162,19 @@ export default function Home() {
             <h2 className="font-headline text-4xl md:text-5xl mb-12 drop-shadow-xl">
               Meme Gallery
             </h2>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+            <div className="columns-2 sm:columns-3 gap-4 space-y-4">
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="aspect-square relative group overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-primary/25"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-primary/25"
                 >
                   <Image
                     src={meme.imageUrl}
                     alt={meme.description}
                     data-ai-hint={meme.imageHint}
-                    fill
-                    className="object-cover transform transition-transform duration-500 group-hover:scale-110"
-                    sizes="(max-width: 640px) 50vw, 33vw"
+                    width={meme.width || 500}
+                    height={meme.height || 500}
+                    className="w-full h-auto transform transition-transform duration-500 group-hover:scale-110"
                   />
                    <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
                     <p className="text-white text-center text-sm">{meme.description}</p>
