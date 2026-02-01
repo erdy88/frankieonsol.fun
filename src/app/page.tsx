@@ -221,10 +221,6 @@ export default function Home() {
             &copy; {new Date().getFullYear()} Frankie the CTOn. All rights
             reserved.{' '}
           </p>
-          <p className="text-xs mt-2">
-            Disclaimer: This is a meme coin for entertainment purposes only.
-            Invest at your own risk.
-          </p>
         </div>
       </footer>
     </div>
