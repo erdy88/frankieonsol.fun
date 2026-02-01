@@ -6,7 +6,7 @@ import { Twitter, Send, LineChart } from 'lucide-react';
 import { CopyButton } from '@/components/copy-button';
 
 const memeImages = PlaceHolderImages.filter((img) => img.id.startsWith('meme'));
-const contractAddress = 'FRffKsosdPkYJGdvUzF1moaLSuTfC2rkUCJqsLCdQgwf';
+const contractAddress = 'F8dgv9rSGQJQFUjNktHeGKsJjvfmn7HHutZLoApqpump';
 const pumpFunLink = `https://www.pump.fun/${contractAddress}`;
 
 const socialLinks = {
