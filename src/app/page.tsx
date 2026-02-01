@@ -77,7 +77,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 lg:max-w-none">
-            <div className="absolute -inset-4 bg-primary/20 rounded-full blur-3xl opacity-60"></div>
+            <div className="absolute -inset-4 bg-primary/20 rounded-full blur-3xl opacity-60 transition-all duration-500 group-hover:opacity-80 group-hover:blur-4xl"></div>
             <Image
                 src="https://i.ibb.co/mrTf3GwP/logo.jpg"
                 alt="Frankie the CTOn"
@@ -93,7 +93,7 @@ export default function Home() {
             <h2 className="font-headline text-4xl md:text-5xl mb-8 drop-shadow-xl">
               About $FRANKIE
             </h2>
-            <div className="text-left space-y-4 bg-white/5 backdrop-blur-xl p-8 rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:shadow-primary/20 hover:ring-white/20 hover:-translate-y-2">
+            <div className="text-left space-y-4 bg-white/5 backdrop-blur-xl p-8 rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:shadow-primary/20 hover:ring-white/20 hover:-translate-y-2 hover:shadow-lg">
               <p className="text-lg text-foreground">
                 On Instagram, Kevin Gill follows Rachel Gill Byron. Same
                 surname, so she might be his sister (speculation). Her public
@@ -116,7 +116,7 @@ export default function Home() {
               Tokenomics
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <Card className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:-translate-y-2 hover:shadow-primary/20 hover:ring-white/20 border-none">
+              <Card className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:-translate-y-2 hover:shadow-primary/20 hover:ring-white/20 border-none hover:shadow-lg">
                 <CardHeader>
                   <CardTitle className="font-headline text-2xl drop-shadow-lg">
                     Total Supply
@@ -129,7 +129,7 @@ export default function Home() {
                   <p className="text-muted-foreground">$FRANKIE</p>
                 </CardContent>
               </Card>
-              <Card className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:-translate-y-2 hover:shadow-primary/20 hover:ring-white/20 border-none">
+              <Card className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-300 hover:-translate-y-2 hover:shadow-primary/20 hover:ring-white/20 border-none hover:shadow-lg">
                 <CardHeader>
                   <CardTitle className="font-headline text-2xl drop-shadow-lg">
                     Contract Address
@@ -146,7 +146,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="memes" className="py-20 md:py-32 bg-black/10">
+        <section id="memes" className="py-20 md:py-32 bg-white/5">
           <div className="container text-center">
             <h2 className="font-headline text-4xl md:text-5xl mb-12 drop-shadow-xl">
               Meme Gallery
