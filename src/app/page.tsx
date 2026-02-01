@@ -48,43 +48,54 @@ export default function Home() {
       </header>
 
       <main className="flex-1">
-        <section className="container grid lg:grid-cols-2 gap-12 items-center py-20 md:py-32">
-          <div className="flex flex-col gap-6">
-            <h1 className="font-headline text-5xl md:text-7xl tracking-tighter font-normal drop-shadow-2xl">
-              Frankie The <span className="text-primary">CTO</span>n.
-            </h1>
-            <p className="max-w-[600px] text-lg text-muted-foreground">
-              Kevin Gill's potential dog. A dog-themed coin with legs to follow!
-              Ready to bark its way to the moon.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button
-                asChild
-                size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40 rounded-full"
-              >
-                <a
-                  href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=F8dgv9rSGQJQFUjNktHeGKsJjvfmn7HHutZLoApqpump"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Buy $FRANKIE
-                </a>
-              </Button>
-              <Button asChild size="lg" variant="outline" className="transform transition-transform duration-300 hover:scale-105 rounded-full bg-transparent hover:bg-white/10 border-white/20">
-                <a href="#about">Learn More</a>
-              </Button>
-            </div>
-          </div>
-          <div className="relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 lg:max-w-none">
-            <div className="absolute -inset-4 bg-primary/20 rounded-full blur-3xl opacity-60 transition-all duration-500 group-hover:opacity-80 group-hover:blur-4xl"></div>
+        <section className="relative py-20 md:py-32">
+          <div className="absolute inset-0 overflow-hidden">
             <Image
-                src="https://i.ibb.co/mrTf3GwP/logo.jpg"
-                alt="Frankie the CTOn"
-                fill
-                priority
-                className="relative object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
-              />
+              src="https://i.ibb.co/mrTf3GwP/logo.jpg"
+              alt="Frankie background"
+              fill
+              className="object-cover opacity-10 blur-sm"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-background/30 to-background" />
+          </div>
+          <div className="container relative grid lg:grid-cols-2 gap-12 items-center">
+            <div className="flex flex-col gap-6">
+              <h1 className="font-headline text-5xl md:text-7xl tracking-tighter font-normal drop-shadow-2xl">
+                Frankie The <span className="text-primary">CTO</span>n.
+              </h1>
+              <p className="max-w-[600px] text-lg text-muted-foreground">
+                Kevin Gill's potential dog. A dog-themed coin with legs to follow!
+                Ready to bark its way to the moon.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button
+                  asChild
+                  size="lg"
+                  className="bg-accent hover:bg-accent/90 text-accent-foreground transform transition-transform duration-300 hover:scale-105 shadow-lg hover:shadow-accent/40 rounded-full"
+                >
+                  <a
+                    href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=F8dgv9rSGQJQFUjNktHeGKsJjvfmn7HHutZLoApqpump"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Buy $FRANKIE
+                  </a>
+                </Button>
+                <Button asChild size="lg" variant="outline" className="transform transition-transform duration-300 hover:scale-105 rounded-full bg-transparent hover:bg-white/10 border-white/20">
+                  <a href="#about">Learn More</a>
+                </Button>
+              </div>
+            </div>
+            <div className="relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 lg:max-w-none">
+              <div className="absolute -inset-4 bg-primary/20 rounded-full blur-3xl opacity-60 transition-all duration-500 group-hover:opacity-80 group-hover:blur-4xl"></div>
+              <Image
+                  src="https://i.ibb.co/mrTf3GwP/logo.jpg"
+                  alt="Frankie the CTOn"
+                  fill
+                  priority
+                  className="relative object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
+                />
+            </div>
           </div>
         </section>
 
