@@ -87,12 +87,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="about" className="py-20 md:py-32 bg-secondary/50">
+        <section id="about" className="py-20 md:py-32">
           <div className="container max-w-4xl mx-auto text-center">
             <h2 className="font-headline text-4xl md:text-5xl mb-8">
               About $FRANKIE
             </h2>
-            <div className="text-left space-y-4 bg-background/70 p-8 rounded-2xl shadow-lg ring-1 ring-border">
+            <div className="text-left space-y-4 bg-white/10 backdrop-blur-lg p-8 rounded-2xl shadow-2xl ring-1 ring-white/20">
               <p className="text-lg text-foreground">
                 On Instagram, Kevin Gill follows Rachel Gill Byron. Same
                 surname, so she might be his sister (speculation). Her public
@@ -115,7 +115,7 @@ export default function Home() {
               Tokenomics
             </h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <Card className="bg-secondary/30 rounded-2xl shadow-xl border border-border/50">
+              <Card className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl border border-white/20">
                 <CardHeader>
                   <CardTitle className="font-headline text-2xl">
                     Total Supply
@@ -128,7 +128,7 @@ export default function Home() {
                   <p className="text-muted-foreground">$FRANKIE</p>
                 </CardContent>
               </Card>
-              <Card className="bg-secondary/30 rounded-2xl shadow-xl border border-border/50">
+              <Card className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl border border-white/20">
                 <CardHeader>
                   <CardTitle className="font-headline text-2xl">
                     Contract Address
