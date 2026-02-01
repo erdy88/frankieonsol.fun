@@ -5,7 +5,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Twitter, Send } from 'lucide-react';
 import { CopyButton } from '@/components/copy-button';
 
-const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-dog');
 const memeImages = PlaceHolderImages.filter((img) => img.id.startsWith('meme'));
 const contractAddress = 'F8dgv9rSGQJQFUjNktHeGKsJjvfmn7HHutZLoApqpump';
 
@@ -20,7 +19,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-14 items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <DogPawIcon className="w-8 h-8 text-primary" />
+            <Image src="https://i.ibb.co/mrTf3GwP/logo.jpg" alt="Frankie Logo" width={40} height={40} className="rounded-full" />
             <span className="font-headline text-2xl font-bold text-foreground">
               FRANKIE
             </span>
@@ -78,16 +77,13 @@ export default function Home() {
             </div>
           </div>
           <div className="relative aspect-[4/3] max-w-lg mx-auto lg:mx-0 lg:max-w-none">
-            {heroImage && (
-              <Image
-                src={heroImage.imageUrl}
-                alt={heroImage.description}
-                data-ai-hint={heroImage.imageHint}
+            <Image
+                src="https://i.ibb.co/mrTf3GwP/logo.jpg"
+                alt="Frankie the CTOn"
                 fill
                 priority
                 className="object-cover rounded-2xl shadow-2xl transform transition-transform duration-500 hover:scale-105"
               />
-            )}
           </div>
         </section>
 
@@ -224,28 +220,5 @@ export default function Home() {
         </div>
       </footer>
     </div>
-  );
-}
-
-function DogPawIcon(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M12.26 19.38c-1.28.3-2.62.03-3.66-1.01-1.26-1.26-1.6-3.22-.87-4.73.13-.27.28-.53.47-.76" />
-      <path d="M10.15 11.53c.19-.23.36-.48.47-.76 1.1-1.89.43-4.39-1.38-5.7-1.36-1-3.13-1.03-4.52-.1-1.39.93-2.08 2.73-1.57 4.35.34 1.1.97 2.03 1.83 2.71" />
-      <path d="M8.63 4.32c.18-.22.38-.42.6-.57 1.63-1.14 3.84-1.13 5.3.08 1.46 1.2 1.95 3.32 1.12 5.01-.15.3-.34.57-.56.82" />
-      <path d="M16.48 9.27c-.22-.25-.42-.5-.56-.82-1.07-2.1-3.6-3.18-5.83-2.5-1.78.54-3.1 2.02-3.48 3.78" />
-      <path d="M17.52 14.53c.18-.23.35-.48.47-.76 1.1-1.89.43-4.39-1.38-5.7-2.22-1.63-5.24-1.12-6.59.9" />
-    </svg>
   );
 }
