@@ -66,9 +66,9 @@ export default function Home() {
               src="https://i.ibb.co/mrTf3GwP/logo.jpg"
               alt="Frankie background"
               fill
-              className="object-cover opacity-15 blur-md"
+              className="object-cover opacity-10 blur-md"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/80" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/60" />
           </div>
           <div className="container relative grid lg:grid-cols-2 gap-12 items-center">
             <div className="flex flex-col gap-6">
@@ -225,7 +225,7 @@ export default function Home() {
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-transform duration-500 hover:-translate-y-2"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-transform duration-300 hover:-translate-y-2"
                 >
                   <Image
                     src={meme.imageUrl}
@@ -260,7 +260,7 @@ export default function Home() {
                <Button
                 asChild
                 size="lg"
-                className="bg-black/30 backdrop-blur-sm border border-amber-500 text-white font-bold transform transition-transform duration-300 hover:scale-105 hover:bg-black/50 rounded-lg"
+                className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg"
               >
                 <a
                   href={socialLinks.telegram}
@@ -273,7 +273,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-black/30 backdrop-blur-sm border border-amber-500 text-white font-bold transform transition-transform duration-300 hover:scale-105 hover:bg-black/50 rounded-lg"
+                className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg"
               >
                 <a
                   href={socialLinks.twitter}
@@ -286,7 +286,7 @@ export default function Home() {
               <Button
                 asChild
                 size="lg"
-                className="bg-black/30 backdrop-blur-sm border border-amber-500 text-white font-bold transform transition-transform duration-300 hover:scale-105 hover:bg-black/50 rounded-lg"
+                className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg"
               >
                 <a
                   href={socialLinks.dexscreener}
