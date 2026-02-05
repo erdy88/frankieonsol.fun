@@ -6,13 +6,13 @@ import { Twitter, Send, LineChart } from 'lucide-react';
 import { CopyButton } from '@/components/copy-button';
 
 const memeImages = PlaceHolderImages.filter((img) => img.id.startsWith('meme'));
-const contractAddress = 'F8dgv9rSGQJQFUjNktHeGKsJjvfmn7HHutZLoApqpump';
+const contractAddress = 'H1mqDYZ57fPcrxZyvmtZFPUsasb2GhEB9fKZ1TvKpump';
 const pumpFunLink = `https://www.pump.fun/${contractAddress}`;
 
 const socialLinks = {
   telegram: 'http://t.me/FRANKIETHECTO',
-  twitter: 'https://twitter.com/i/communities/2017258551631102306',
-  dexscreener: `https://dexscreener.com/solana/${contractAddress}`,
+  twitter: 'https://x.com/i/communities/2019111709454242149',
+  dexscreener: 'https://dexscreener.com/solana/3F9prZ1JzhEx4zCfeMYpurPNRRiXNVBcfBzwyJV7ZSvZ',
 };
 
 export default function Home() {
@@ -90,23 +90,23 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/60" />
           </div>
-          <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-center lg:text-left">
+          <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-center">
             <div className="relative group aspect-square max-w-xs sm:max-w-sm mx-auto lg:max-w-none lg:mx-0 lg:order-2">
               <div className="absolute -inset-8 bg-white/20 rounded-full blur-3xl opacity-50 transition-all duration-1000 group-hover:opacity-70 group-hover:blur-4xl group-hover:-inset-4"></div>
               <Image
                 src="https://i.ibb.co/mrTf3GwP/logo.jpg"
-                alt="Frankie The CTO"
+                alt="Frankie The Dawg"
                 fill
                 priority
                 className="object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
               />
             </div>
-            <div className="lg:order-1 flex flex-col gap-6 items-center lg:items-start">
+            <div className="lg:order-1 flex flex-col gap-6 items-center lg:items-start text-center lg:text-left">
               <h1 className="font-headline text-5xl md:text-7xl tracking-tighter font-normal text-white drop-shadow-[0_4px_8px_rgba(255,255,255,0.3)]">
-                Frankie The <span className="text-white">CTO</span>.
+                Frankie the <span className="text-white">Dawg</span>.
               </h1>
-              <p className="max-w-[600px] text-lg text-white/70 mx-auto lg:mx-0">
-                Frankie, possible Barking Puppy sister’s dog
+              <p className="max-w-[600px] text-lg text-white/70 text-center lg:text-left mx-auto lg:mx-0">
+                possible Barking Puppy's cousin dog.
               </p>
             </div>
           </div>
@@ -119,23 +119,22 @@ export default function Home() {
             </h2>
             <div className="text-left space-y-4 bg-black/50 backdrop-blur-2xl p-8 rounded-3xl shadow-2xl ring-1 ring-white/10 transition-all duration-500 hover:shadow-white/20 hover:ring-white/20 hover:-translate-y-2 hover:shadow-lg hover:ring-opacity-30">
               <p className="text-lg text-white/90">
-                On Instagram, Kevin Gill follows Rachel Gill Byron. They share
-                the same surname, so she might be his sister. This is
-                speculation, not a confirmed relationship. Her public posts
-                reference a dog named “Frankie.”
+                On Instagram, Kevin Gill aka Barking Puppy follows Rachel Gill Byron. They share the same surname, so she might be in his family.
               </p>
               <p className="text-lg text-white/90">
-                Kevin Gill, known for Barking Puppy, already has a dog-themed
-                coin that reached around a ~$7m valuation. That alone shows the
-                market has appetite for this narrative.
+                This is speculation, not a confirmed relationship. Her public posts reference a dog named “Frankie.”
               </p>
               <p className="text-lg text-white/90">
-                $FRANKIE is a clean continuation of that meta. A public social
-                breadcrumb, a familiar dog theme, now tokenized on-chain.
+                Kevin Gill, known for Barking Puppy, already has a dog-themed coin that reached around a ~$5m valuation currently. That alone shows the market has appetite for this narrative.
               </p>
               <p className="text-lg text-white/90">
-                No claim of endorsement or affiliation. This is simply a
-                visible social trail paired with an on-chain experiment. DYOR.
+                After a few days of grinding, we managed to officially onboard Frankie’s owner into the $FRANKIE community. We’ll share updates as they go live, and we ask everyone to keep it respectful.
+              </p>
+              <p className="text-lg text-white/90">
+                $FRANKIE is a clean continuation of that meta. A public social breadcrumb, a familiar dog theme, now tokenized on-chain.
+              </p>
+              <p className="text-lg text-white/90">
+                No claim of endorsement or affiliation. This is simply a visible social trail paired with an on-chain experiment. DYOR.
               </p>
             </div>
           </div>
@@ -161,13 +160,7 @@ export default function Home() {
                 transparency.
               </p>
               <p className="text-lg text-white/90">
-                Until then, Frankie exists as a culture-first meme: driven by
-                community creativity, clear disclosures, and respect for the
-                people behind the story.
-              </p>
-              <p className="text-lg text-white/90">
-                The goal is simple: let the narrative earn legitimacy
-                organically, not force it.
+                Official update: Frankie’s owner is now onboard with the $FRANKIE community!
               </p>
             </div>
           </div>
@@ -215,7 +208,7 @@ export default function Home() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <p className="text-white/90 text-lg">
-                    3.3% of $FRANKIE has been locked for 30 days.
+                    Dev supply has been locked till 2027
                   </p>
                   <Button
                     asChild
@@ -223,7 +216,7 @@ export default function Home() {
                     className="w-full bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg"
                   >
                     <a
-                      href="https://app.streamflow.finance/contract/solana/mainnet/GEobq682jPdRE2UzqGpiQdPVkndsUVtrvQLBWkKrnFQS"
+                      href="https://app.streamflow.finance/token-dashboard/solana/mainnet/H1mqDYZ57fPcrxZyvmtZFPUsasb2GhEB9fKZ1TvKpump/contract/6Kdeq4zAaiQY2AQ11ic8Byrwo4hnVYBK8rYvYVVQX6M5"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -326,7 +319,7 @@ export default function Home() {
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-all duration-500 hover:shadow-white/20 hover:-translate-y-2 hover:shadow-lg"
                 >
                   <Image
                     src={meme.imageUrl}
@@ -355,9 +348,6 @@ export default function Home() {
             <p className="text-lg text-white/70 mb-6">
               Follow us on our socials to stay updated with the latest barks and
               woofs about $FRANKIE.
-            </p>
-            <p className="text-sm text-white/70 mb-8">
-              Always double-check official links to stay safe from scams.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button
@@ -407,7 +397,7 @@ export default function Home() {
       <footer className="py-6 border-t border-white/10">
         <div className="container text-center text-white/60">
           <p>
-            &copy; {new Date().getFullYear()} Frankie the CTO. All rights
+            &copy; {new Date().getFullYear()} Frankie the Dawg. All rights
             reserved.{' '}
           </p>
           <p className="text-xs text-white/40 mt-4 max-w-3xl mx-auto">
