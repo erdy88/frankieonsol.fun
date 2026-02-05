@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Twitter, Send, LineChart } from 'lucide-react';
+import { Twitter, LineChart } from 'lucide-react';
 import { CopyButton } from '@/components/copy-button';
 
 const memeImages = PlaceHolderImages.filter((img) => img.id.startsWith('meme'));
@@ -10,7 +10,6 @@ const contractAddress = 'H1mqDYZ57fPcrxZyvmtZFPUsasb2GhEB9fKZ1TvKpump';
 const pumpFunLink = `https://www.pump.fun/${contractAddress}`;
 
 const socialLinks = {
-  telegram: 'http://t.me/FRANKIETHECTO',
   twitter: 'https://x.com/i/communities/2019111709454242149',
   dexscreener: 'https://dexscreener.com/solana/3F9prZ1JzhEx4zCfeMYpurPNRRiXNVBcfBzwyJV7ZSvZ',
 };
@@ -33,20 +32,6 @@ export default function Home() {
             </span>
           </a>
           <nav className="flex items-center gap-2">
-            <a
-              href={socialLinks.telegram}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button
-                variant="ghost"
-                size="icon"
-                aria-label="Telegram"
-                className="rounded-full text-white/80 hover:bg-white/10 hover:text-white transition-all duration-300 transform hover:scale-110"
-              >
-                <Send className="h-5 w-5" />
-              </Button>
-            </a>
             <a
               href={socialLinks.twitter}
               target="_blank"
@@ -93,13 +78,15 @@ export default function Home() {
           <div className="container relative grid grid-cols-1 lg:grid-cols-2 gap-12 items-center text-center">
             <div className="relative group aspect-square max-w-xs sm:max-w-sm mx-auto lg:max-w-none lg:mx-0 lg:order-2">
               <div className="absolute -inset-8 bg-white/20 rounded-full blur-3xl opacity-50 transition-all duration-1000 group-hover:opacity-70 group-hover:blur-4xl group-hover:-inset-4"></div>
-              <Image
-                src="https://i.ibb.co/mrTf3GwP/logo.jpg"
-                alt="Frankie The Dawg"
-                fill
-                priority
-                className="object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
-              />
+              <div className="relative aspect-square">
+                <Image
+                  src="https://i.ibb.co/mrTf3GwP/logo.jpg"
+                  alt="Frankie The Dawg"
+                  fill
+                  priority
+                  className="object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
+                />
+              </div>
             </div>
             <div className="lg:order-1 flex flex-col gap-6 items-center lg:items-start text-center lg:text-left">
               <h1 className="font-headline text-5xl md:text-7xl tracking-tighter font-normal text-white drop-shadow-[0_4px_8px_rgba(255,255,255,0.3)]">
@@ -319,7 +306,7 @@ export default function Home() {
               {memeImages.map((meme) => (
                 <div
                   key={meme.id}
-                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-all duration-500 hover:shadow-white/20 hover:-translate-y-2 hover:shadow-lg"
+                  className="break-inside-avoid relative group overflow-hidden rounded-2xl shadow-lg transition-all duration-500 hover:shadow-white/20 hover:shadow-lg"
                 >
                   <Image
                     src={meme.imageUrl}
@@ -350,19 +337,6 @@ export default function Home() {
               woofs about $FRANKIE.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <Button
-                asChild
-                size="lg"
-                className="bg-gradient-to-b from-amber-400 to-amber-600 text-black font-bold transform transition-transform duration-300 hover:scale-105 shadow-lg shadow-amber-500/40 rounded-lg"
-              >
-                <a
-                  href={socialLinks.telegram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Send className="mr-2" /> Telegram
-                </a>
-              </Button>
               <Button
                 asChild
                 size="lg"
