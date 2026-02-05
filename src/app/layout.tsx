@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Frankie the Dawg',
-  description: 'The meme token with legs to follow!',
+  title: 'Frankie the Dawg ($FRANKIE)',
+  description: "A memecoin experiment based on a public social breadcrumb possibly linking to Barking Puppy's family.",
 };
 
 export default function RootLayout({
