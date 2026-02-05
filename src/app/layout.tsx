@@ -4,7 +4,7 @@ import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
   title: 'Frankie the Dawg ($FRANKIE)',
-  description: "A memecoin experiment based on a public social breadcrumb possibly linking to Barking Puppy's family.",
+  description: "Barking Puppy's cousin.",
 };
 
 export default function RootLayout({
