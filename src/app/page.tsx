@@ -81,7 +81,7 @@ export default function Home() {
               <div className="relative aspect-square">
                 <Image
                   src="https://i.ibb.co/mrTf3GwP/logo.jpg"
-                  alt="Frankie The Dawg"
+                  alt="Frankie the Dawg"
                   fill
                   priority
                   className="object-cover rounded-3xl shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-3"
@@ -113,9 +113,6 @@ export default function Home() {
               </p>
               <p className="text-lg text-white/90">
                 Kevin Gill, known for Barking Puppy, already has a dog-themed coin that reached around a ~$5m valuation currently. That alone shows the market has appetite for this narrative.
-              </p>
-              <p className="text-lg text-white/90">
-                After a few days of grinding, we managed to officially onboard Frankie’s owner into the $FRANKIE community. We’ll share updates as they go live, and we ask everyone to keep it respectful.
               </p>
               <p className="text-lg text-white/90">
                 $FRANKIE is a clean continuation of that meta. A public social breadcrumb, a familiar dog theme, now tokenized on-chain.
